@@ -25,4 +25,6 @@ The feature selection is carefully done under the supervision of a medical scien
 
 After the modeling part the model is deployed using Streamlit library on Streamlit Share so that the app is available for usage for everyone.
 
-Link To My Web Application - https://share.streamlit.io/bhaswatiroy/medical-predictions-streamlit-web-app/main/app.py
+Link To My Web Application -
+
+https://share.streamlit.io/bhaswatiroy/medical-predictions-streamlit-web-app/main/app.py
