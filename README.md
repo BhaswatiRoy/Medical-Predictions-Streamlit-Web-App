@@ -31,4 +31,4 @@ https://share.streamlit.io/bhaswatiroy/medical-predictions-streamlit-web-app/mai
 
 Link To My Video Explanation -
 
-https://drive.google.com/file/d/1uNSLPmLLyOKXFmVv5o8jxk4tl4oLe-6I/view?usp=sharing
+https://youtu.be/zv6ZIe4RbnQ
