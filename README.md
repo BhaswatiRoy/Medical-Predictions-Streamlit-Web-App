@@ -1,7 +1,10 @@
-# 🔴 Medical-Predictions-Streamlit-Web-App
-
-![image](https://user-images.githubusercontent.com/78029145/153416403-35688fe7-8c4c-42c9-ac8c-67027c1dcf24.png)
-
+<p align="center">
+    ✨ Welcome to Medical Predictions Web App ✨ <br />
+  
+  ![image](https://user-images.githubusercontent.com/78029145/153416403-35688fe7-8c4c-42c9-ac8c-67027c1dcf24.png)
+    
+</p>
+<br />
 
 This app is used to predict the medical state of an individual
 The disease sections include ->
