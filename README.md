@@ -26,7 +26,6 @@ The disease sections include ->
 - The most relevant features are taken into consideration for prediction also these features can be found out with simple tests or analysis without visiting any doctor.
 - So the victim can get a broad overview of their health condition.
 
-
 The features taken into consideration are as follows=
 
 | Disease | Features |
@@ -35,9 +34,7 @@ The features taken into consideration are as follows=
 | Diabetes | Glucose, Insulin, Body Mass Index(BMI), Age |
 | Heart Disease | Chest Pain, Blood Pressure(BP), Cholestrol, Max Heart Rate(HR) |
 
-
 The feature selection is carefully done under the supervision of a medical science student.
-
 
 ## Deployment Of The Project
 
