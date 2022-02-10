@@ -27,9 +27,9 @@ The features taken into consideration are as follows=
 
 | Disease | Features |
 | - | - |
-| Covid-19 | dry cough, fever, sore throat, breathing problem |
-| Diabetes | glucose, insulin, Body Mass Index(BMI), age |
-| Heart Disease | chest pain, Blood Pressure(BP), cholestrol, max Heart Rate(HR) |
+| Covid-19 | Dry Cough, Fever, Sore Throat, Breathing Problem |
+| Diabetes | Glucose, Insulin, Body Mass Index(BMI), Age |
+| Heart Disease | Chest Pain, Blood Pressure(BP), Cholestrol, Max Heart Rate(HR) |
 
 The feature selection is carefully done under the supervision of a medical science student.
 
