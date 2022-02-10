@@ -1,8 +1,8 @@
 <h1 align="center">
-             Medical Predictions Web App 🩺 💊
+             Medical Predictions Web App 🩺 💊 💉
 </h1>
   
-  ![image](https://user-images.githubusercontent.com/78029145/153416403-35688fe7-8c4c-42c9-ac8c-67027c1dcf24.png)
+  ![image](https://user-images.githubusercontent.com/78029145/153434524-ca6c416b-3f8e-43ca-8174-6f68789209a5.png)
 
 
 This app is used to predict the medical state of an individual
