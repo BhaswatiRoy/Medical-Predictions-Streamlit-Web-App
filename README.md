@@ -24,9 +24,12 @@ Each prediction is done with the help of 4 features which will be taken as input
 The most relevant features are taken into consideration for prediction also these features can be found out with simple tests or analysis without visiting any doctor.
 So the victim can get a broad overview of their health condition.
 The features taken into consideration are as follows=
-1. Covid-19 = dry cough, fever, sore throat, breathing problem
-2. Diabetes = glucose, insulin, Body Mass Index(BMI), age
-3. Heart Disease = chest pain, Blood Pressure(BP), cholestrol, max Heart Rate(HR)
+
+| Disease | Features |
+| - | - |
+| Covid-19 | dry cough, fever, sore throat, breathing problem |
+| Diabetes | glucose, insulin, Body Mass Index(BMI), age |
+| Heart Disease | chest pain, Blood Pressure(BP), cholestrol, max Heart Rate(HR) |
 
 The feature selection is carefully done under the supervision of a medical science student.
 
