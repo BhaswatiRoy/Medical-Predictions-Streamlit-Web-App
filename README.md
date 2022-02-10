@@ -18,6 +18,10 @@ The disease sections include ->
 
 <img src="https://img.shields.io/badge/python%20-%2314354C.svg?&style=for-the-badge&logo=python&logoColor=white"/>
 
+## Libraries Used
+
+<img src="https://img.shields.io/badge/numpy%20-%2314354C.svg?&style=for-the-badge&logo=numpy&logoColor=white"/>
+
 ## Structure Of The Project
 
 - Each prediction page is conneceted with a Machine Learning Model which uses Random Forest Classifier to predict the results.
