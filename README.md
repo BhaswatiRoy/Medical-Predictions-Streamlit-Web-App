@@ -1,4 +1,4 @@
-# Medical-Predictions-Streamlit-Web-App
+# 🔴 Medical-Predictions-Streamlit-Web-App
 
 ![image](https://user-images.githubusercontent.com/78029145/153416403-35688fe7-8c4c-42c9-ac8c-67027c1dcf24.png)
 
