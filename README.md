@@ -13,7 +13,7 @@ The disease sections include ->
 *3. Heart Disease* 
 
 
-##Structure Of The Project
+## Structure Of The Project
 
 Each prediction page is conneceted with a Machine Learning Model which uses Random Forest Classifier to predict the results.
 Also we have 3 different datasets used for each prediction.
@@ -30,7 +30,7 @@ The features taken into consideration are as follows=
 
 The feature selection is carefully done under the supervision of a medical science student.
 
-##Deployment Of The Project
+## Deployment Of The Project
 
 After the modeling part the model is deployed using Streamlit library on Streamlit Share so that the app is available for usage for everyone.
 
