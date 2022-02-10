@@ -34,7 +34,7 @@ The disease sections include ->
 - The most relevant features are taken into consideration for prediction also these features can be found out with simple tests or analysis without visiting any doctor.
 - So the victim can get a broad overview of their health condition.
 
-The features taken into consideration are as follows=
+## The features taken into consideration
 
 | Disease | Features |
 | - | - |
