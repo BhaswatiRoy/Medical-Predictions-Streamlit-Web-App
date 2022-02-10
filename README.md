@@ -8,11 +8,11 @@
 This app is used to predict the medical state of an individual
 The disease sections include ->
 
-*1. Covid-19*
+**1. Covid-19**
 
-*2. Diabetes*
+**2. Diabetes**
 
-*3. Heart Disease* 
+**3. Heart Disease**
 
 
 ## Structure Of The Project
