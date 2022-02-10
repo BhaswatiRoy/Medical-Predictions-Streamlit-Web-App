@@ -14,6 +14,9 @@ The disease sections include ->
 
 **3. Heart Disease**
 
+## Tech Stacks Used
+
+<img src="https://img.shields.io/badge/python%20-%2314354C.svg?&style=for-the-badge&logo=python&logoColor=white"/>
 
 ## Structure Of The Project
 
