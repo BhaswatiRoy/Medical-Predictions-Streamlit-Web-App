@@ -20,7 +20,8 @@ The disease sections include ->
 
 ## Libraries Used
 
-<img src="https://img.shields.io/badge/numpy%20-%2314354C.svg?&style=for-the-badge&logo=numpy&logoColor=white"/>
+<img src="https://img.shields.io/badge/numpy%20-%2314354C.svg?&style=for-the-badge&logo=numpy&logoColor=white"/> <img src="https://img.shields.io/badge/pandas%20-%2314354C.svg?&style=for-the-badge&logo=pandas&logoColor=white"/> <img src="https://img.shields.io/badge/matplotlib%20-%2314354C.svg?&style=for-the-badge&logo=matplolib&logoColor=white"/>
+<img src="https://img.shields.io/badge/streamlit%20-%2314354C.svg?&style=for-the-badge&logo=streamlit&logoColor=white"/>
 
 ## Structure Of The Project
 
