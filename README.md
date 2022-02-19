@@ -56,16 +56,21 @@ Link To My Video Explanation -
 
 https://youtu.be/zv6ZIe4RbnQ
 
-Glance At The Hosted Application-
+## Glance At The Hosted Application-
 
+### 1. Home Page
 ![image](https://user-images.githubusercontent.com/78029145/153414617-663dfe56-18eb-47f5-8de6-54aa5d0e0351.png)
 
+### 2. Covid-19 Page
 ![image](https://user-images.githubusercontent.com/78029145/153414774-e1c39199-db5e-4d40-9ed5-bd65edee1bf2.png)
 
+### 3. Diabetes Page
 ![image](https://user-images.githubusercontent.com/78029145/153414946-8417cd23-6996-41c1-b989-8158cc980e43.png)
 
+### 4. Heart Disease Page
 ![image](https://user-images.githubusercontent.com/78029145/153415061-38a25278-c48b-49f2-a6b8-be66817ec8c4.png)
 
+### 5. Plots Page
 ![image](https://user-images.githubusercontent.com/78029145/153417820-dbfe50f7-1ce3-43ce-ac7d-4285d4d6f303.png)
 
 
