@@ -49,9 +49,11 @@ if rad=="Covid-19":
     fever=st.number_input("Rate Of Fever (0-20)",min_value=0,max_value=20,step=1)
     sorethroat=st.number_input("Rate Of Sore Throat (0-20)",min_value=0,max_value=20,step=1)
     breathingprob=st.number_input("Rate Of Breathing Problem (0-20)",min_value=0,max_value=20,step=1)
+    #the variable prediction1 predicts by the health state by passing the 4 features to the model
     prediction1=model1.predict([[drycough,fever,sorethroat,breathingprob]])[0]
     
     #prediction part predicts whether the person is affected by Covid-19 or not by the help of features taken as input
+    #on the basis of prediction the results are displayed
     if st.button("Predict"):
         if prediction1=="Yes":
             st.warning("You Might Be Affected By Covid-19")
