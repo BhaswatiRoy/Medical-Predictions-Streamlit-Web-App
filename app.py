@@ -9,7 +9,7 @@ from sklearn.ensemble import RandomForestClassifier
 #building the sidebar of the web app which will help us navigate through the different sections of the entire application
 rad=st.sidebar.radio("Navigation Menu",["Home","Covid-19","Diabetes","Heart Disease","Plots"])
 
-#Home Page
+""" Home Page """
 
 #displays all the available disease prediction options in the web app
 if rad=="Home":
@@ -20,7 +20,7 @@ if rad=="Home":
     st.text("2. Diabetes Predictions")
     st.text("3. Heart Disease Predictions")
 
-#Covid-19 Prediction
+""" Covid-19 Prediction """
 
 #loading the Covid-19 dataset
 df1=pd.read_csv("Covid-19 Predictions.csv")
@@ -36,7 +36,7 @@ model1=RandomForestClassifier()
 #fitting the model with train data (x1_train & y1_train)
 model1.fit(x1_train,y1_train)
 
-#Covid-19 Page
+""" Covid-19 Page """
 
 #heading over to the Covid-19 section
 if rad=="Covid-19":
@@ -60,7 +60,7 @@ if rad=="Covid-19":
         elif prediction1=="No":
             st.success("You Are Safe")
 
-#Diabetes Prediction
+""" Diabetes Prediction """
 
 #loading the Diabetes dataset
 df2=pd.read_csv("Diabetes Predictions.csv")
@@ -76,7 +76,7 @@ model2=RandomForestClassifier()
 #fitting the model with train data (x2_train & y2_train)
 model2.fit(x2_train,y2_train)
 
-#Diabetes Page
+""" Diabetes Page """
 
 #heading over to the Diabetes section
 if rad=="Diabetes":
@@ -100,7 +100,7 @@ if rad=="Diabetes":
         elif prediction2==0:
             st.success("You Are Safe")
 
-#Heart Disease Prediction
+""" Heart Disease Prediction """
 
 #loading the Heart Disease dataset
 df3=pd.read_csv("Heart Disease Predictions.csv")
@@ -116,7 +116,7 @@ model3=RandomForestClassifier()
 #fitting the model with train data (x3_train & y3_train)
 model3.fit(x3_train,y3_train)
 
-#Heart Disease Page
+""" Heart Disease Page """
 
 #heading over to the Heart Disease section
 if rad=="Heart Disease":
