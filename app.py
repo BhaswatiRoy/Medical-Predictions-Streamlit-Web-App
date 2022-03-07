@@ -1,3 +1,4 @@
+#importing all the important libraries
 import streamlit as st
 import numpy as np
 import pandas as pd
@@ -5,9 +6,12 @@ import plotly.express as px
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
 
+#building the sidebar of the web app which will help us navigate through the different sections of the entire application
 rad=st.sidebar.radio("Navigation Menu",["Home","Covid-19","Diabetes","Heart Disease","Plots"])
 
 #Home Page
+
+#displays all the available disease prediction options in the web app
 if rad=="Home":
     st.title("Medical Predictions App")
     st.image("Medical Prediction Home Page.jpg")
@@ -17,13 +21,19 @@ if rad=="Home":
     st.text("3. Heart Disease Predictions")
 
 #Covid-19 Prediction
+
+#loading the Covid-19 dataset
 df1=pd.read_csv("Covid-19 Predictions.csv")
+#cleaning the data by dropping unneccessary column and dividing the data as features(x1) & target(y1)
 x1=df1.drop("Infected with Covid19",axis=1)
 x1=np.array(x1)
 y1=pd.DataFrame(df1["Infected with Covid19"])
 y1=np.array(y1)
+#performing train-test split on the data
 x1_train,x1_test,y1_train,y1_test=train_test_split(x1,y1,test_size=0.2,random_state=0)
+#creating an object for the model for further usage
 model1=RandomForestClassifier()
+#fitting the model with train data (x1_train & y1_train)
 model1.fit(x1_train,y1_train)
 
 #Covid-19 Page
