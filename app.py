@@ -140,8 +140,12 @@ if rad=="Heart Disease":
         elif str(prediction3)=="Absence":
             st.success("You Are Safe")
                                         
-                                        
+""" Plots Page """
+
+#heading over to the plots section
+#plots are displayed for each disease prediction section 
 if rad=="Plots":
+    #
     type=st.selectbox("Which Plot Do You Want To See?",["Covid-19","Diabetes","Heart Disease"])
     if type=="Covid-19":
         fig=px.scatter(df1,x="Difficulty in breathing",y="Infected with Covid19")
