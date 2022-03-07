@@ -37,15 +37,21 @@ model1=RandomForestClassifier()
 model1.fit(x1_train,y1_train)
 
 #Covid-19 Page
+
+#heading over to the Covid-19 section
 if rad=="Covid-19":
     st.header("Know If You Are Affected By Covid-19")
     st.write("All The Values Should Be In Range Mentioned")
+    #taking the 4 most important features as input as features -> Dry Cough (drycough), Fever (fever), Sore Throat (sorethroat), Breathing Problem (breathingprob)
+    #a min value (min_value) & max value (max_value) range is set so that user can enter value within that range
+    #incase user enters a value which is not in the range then the value will not be taken whereas an alert message will pop up
     drycough=st.number_input("Rate Of Dry Cough (0-20)",min_value=0,max_value=20,step=1)
     fever=st.number_input("Rate Of Fever (0-20)",min_value=0,max_value=20,step=1)
     sorethroat=st.number_input("Rate Of Sore Throat (0-20)",min_value=0,max_value=20,step=1)
     breathingprob=st.number_input("Rate Of Breathing Problem (0-20)",min_value=0,max_value=20,step=1)
     prediction1=model1.predict([[drycough,fever,sorethroat,breathingprob]])[0]
-
+    
+    #prediction part predicts whether the person is affected by Covid-19 or not by the help of features taken as input
     if st.button("Predict"):
         if prediction1=="Yes":
             st.warning("You Might Be Affected By Covid-19")
